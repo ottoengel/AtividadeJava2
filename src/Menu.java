@@ -21,7 +21,7 @@ public class Menu {
 
     public static String lerNome() {
         System.out.print("Digite o nome: ");
-        scanner.nextLine(); // Limpar o buffer
+        scanner.nextLine(); 
         return scanner.nextLine();
     }
 }

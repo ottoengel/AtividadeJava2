@@ -6,10 +6,17 @@ public class Tecnico extends Pessoa {
         this.especialidade = especialidade;
     }
 
-    // Métodos getters e setters omitidos para brevidade
-
     @Override
     public String toString() {
         return super.toString() + "\nEspecialidade: " + especialidade;
+    }
+
+    public String getEspecialidade() {
+        return especialidade;
+    }
+
+
+    public void setEspecialidade(String especialidade) {
+        this.especialidade = especialidade;
     }
 }

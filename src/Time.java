@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Time {
-    private int id; // Supondo que cada time tenha um ID
+    private int id;
 
     private static List<Time> listaTime = new ArrayList<>();
 

@@ -1,36 +1,15 @@
-public class Tecnico {
-    private  String nome;
-    private String id;
+public class Tecnico extends Pessoa {
+    private String especialidade;
 
-    public Tecnico(){
-    }
-   
-    public Tecnico(String nome, String id) {
-        this.nome = nome;
-        this.id = id;
+    public Tecnico(String nome, String especialidade) {
+        super(nome);
+        this.especialidade = especialidade;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
+    // Métodos getters e setters omitidos para brevidade
 
     @Override
     public String toString() {
-        
-        return "\nNome: " + nome + "\nId: " + id;
- 
+        return super.toString() + "\nEspecialidade: " + especialidade;
     }
-
 }

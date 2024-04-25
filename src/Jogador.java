@@ -10,7 +10,29 @@ public class Jogador extends Pessoa {
         this.reserva = reserva;
     }
 
-    // Métodos getters e setters omitidos para brevidade
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
+    public boolean isTitular() {
+        return titular;
+    }
+
+    public void setTitular(boolean titular) {
+        this.titular = titular;
+    }
+
+    public boolean isReserva() {
+        return reserva;
+    }
+
+    public void setReserva(boolean reserva) {
+        this.reserva = reserva;
+    }
 
     @Override
     public String toString() {
